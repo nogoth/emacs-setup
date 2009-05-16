@@ -1,0 +1,45 @@
+2009-05-11  Vivek Dasmohapatra  <vivek@etla.org>
+
+	* handlers/account_menu.c       : generate dynamic extended account menu
+
+	* handlers/account_menu_action.c: execute account menu action
+
+	* elisp/garak.el                : extended account menu items 
+	                                  configure account menu item
+
+	* elisp/elim.el                 : fetch extended account menu
+
+	* ui_ops/request_ui_ops.c       : callbacks passed into us may be NULL.
+	                                  check for this.
+
+2009-05-10  Vivek Dasmohapatra  <vivek@etla.org>
+
+	* doc                 : added copyright and GFDL notices, and GFDL
+
+	* elisp/garak.el      : finish prefs browse/edit/save functionality
+
+	* handlers/set_prefs.c: implement setting preferences.
+
+	* elisp/elim.el       : implement setting preferences.
+	                        provide alist -> proto alist function
+
+	* handlers/get_prefs.c: add some more 'choice' metadata for prefs
+
+2009-05-08  Vivek Dasmohapatra  <vivek@etla.org>
+
+	* elisp   : re-use old dead garak buffers on restart (M-x garak)
+	* handlers: fetch preferences tree
+	* elisp   : display editable preferences widget (M-x garak-prefs)
+
+2009-05-07  Vivek Dasmohapatra  <vivek@etla.org>
+
+	* CHANGES : initial change log entry
+	* elisp   : handle elim process dying (update account statuses;
+	            put warning message in all live garak buffers)
+	* handlers: provide buddy-menu and buddy-menu-action handlers
+	* elisp   : implement (dynamic) extended buddy menu handling
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without warranty of any kind.

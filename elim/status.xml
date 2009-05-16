@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<statuses version='1.0'>
+	<status name='available' created='1242104687' lastused='1242104723' usage_count='2'>
+		<state>available</state>
+		<message>-borrowed wifi is fun-</message>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1242105251' lastused='0' usage_count='0'>
+		<state>away</state>
+		<message>I&apos;m not here right now</message>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1242104688' lastused='0' usage_count='0'>
+		<state>available</state>
+	</status>
+</statuses>

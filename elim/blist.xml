@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='Coworkers'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>twganje@aim.jabber.meta.net.nz</name>
+					<alias>travis bulldog ganje</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Transports'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>aim.jabber.meta.net.nz</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>aolsystemmsg@aim.jabber.meta.net.nz</name>
+					<setting name='buddy_icon' type='string'>5248ab7f0c7b1ed9ae99c21d6247ef5a28af5117.png</setting>
+					<setting name='icon_checksum' type='string'>5248ab7f0c7b1ed9ae99c21d6247ef5a28af5117</setting>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Other'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>punk4punks@gmail.com</name>
+					<alias>Joe @ punks</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Buddies'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>punk4punks@gmail.com</name>
+					<alias>Joe @ punks</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>libbey.white@services.montana.edu</name>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Bots'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>pingbot@ping.fm</name>
+					<alias>pingbot</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='MEEEE'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>livingood@gmail.com</name>
+					<alias>Ben L</alias>
+					<setting name='buddy_icon' type='string'>e9085775b224fefa3e1f0cc11f08560af801d137.png</setting>
+					<setting name='icon_checksum' type='string'>e9085775b224fefa3e1f0cc11f08560af801d137</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>+14065990809@aim.jabber.meta.net.nz</name>
+					<alias>+14065990809</alias>
+					<setting name='buddy_icon' type='string'>5248ab7f0c7b1ed9ae99c21d6247ef5a28af5117.png</setting>
+					<setting name='icon_checksum' type='string'>5248ab7f0c7b1ed9ae99c21d6247ef5a28af5117</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>benjamin.livingood@services.montana.edu</name>
+					<alias>Ben @ services @ work</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>benlivingood%mac.com@aim.jabber.meta.net.nz</name>
+					<alias>benlivingood@mac.com</alias>
+					<setting name='buddy_icon' type='string'>65d9f7f13bbf43b2543c35e2d2aaa0bd8655485b.png</setting>
+					<setting name='icon_checksum' type='string'>65d9f7f13bbf43b2543c35e2d2aaa0bd8655485b</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>fumidusastrum@aim.jabber.meta.net.nz</name>
+					<alias>Ben @ AOL</alias>
+					<setting name='buddy_icon' type='string'>65d9f7f13bbf43b2543c35e2d2aaa0bd8655485b.png</setting>
+					<setting name='icon_checksum' type='string'>65d9f7f13bbf43b2543c35e2d2aaa0bd8655485b</setting>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Co-Workers'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>irjudson@gmail.com</name>
+					<alias>Ivan Judson</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>lbogarmsu@gmail.com</name>
+					<alias>Lisa Bogar</alias>
+					<setting name='buddy_icon' type='string'>44d039a9e60810eda6a3bbbed6394f82478e618d.png</setting>
+					<setting name='icon_checksum' type='string'>44d039a9e60810eda6a3bbbed6394f82478e618d</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>jaderobbins@gmail.com</name>
+					<setting name='buddy_icon' type='string'>95f3fba4e772a9322fd428c3ae4f8715c1cc67c0.png</setting>
+					<setting name='icon_checksum' type='string'>95f3fba4e772a9322fd428c3ae4f8715c1cc67c0</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>cjsrenne45@gmail.com</name>
+					<alias>Carol cjsrenne45</alias>
+					<setting name='buddy_icon' type='string'>e9f47dac7c0fd680dfb6dd223afd3261da222724.png</setting>
+					<setting name='icon_checksum' type='string'>e9f47dac7c0fd680dfb6dd223afd3261da222724</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>jaeger.ca@gmail.com</name>
+					<alias>Christopher Jaeger</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>rheimbuch@gmail.com</name>
+					<alias>Ryan Heimbuch</alias>
+					<setting name='buddy_icon' type='string'>7b2f333b7a1033eb7c830acbb834b30329bbc56c.png</setting>
+					<setting name='icon_checksum' type='string'>7b2f333b7a1033eb7c830acbb834b30329bbc56c</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>gerripho@aim.jabber.meta.net.nz</name>
+					<alias>Adell</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>currant@gmail.com</name>
+					<alias>Libbey K White</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>amsnowberger%mac.com@aim.jabber.meta.net.nz</name>
+					<alias>Ann M. Snowberger</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>breedraper@aim.jabber.meta.net.nz</name>
+					<alias>Bree</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>grahamiancummins@aim.jabber.meta.net.nz</name>
+					<alias>Graham</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>gwenjacobs%mac.com@aim.jabber.meta.net.nz</name>
+					<alias>Gwen Jacobs - Mac</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>irjudson@jabber.org</name>
+					<alias>Ivan Judson</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>jpmillerusa%mac.com@aim.jabber.meta.net.nz</name>
+					<alias>John P. Miller</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>sierra1098@aim.jabber.meta.net.nz</name>
+					<alias>Cali</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>levi.junkert@gmail.com</name>
+					<alias>levi.junkert</alias>
+					<setting name='buddy_icon' type='string'>3f2892ab151a0e956ed4ad8881bbac68375d24d2.png</setting>
+					<setting name='icon_checksum' type='string'>3f2892ab151a0e956ed4ad8881bbac68375d24d2</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>pol.llovet@gmail.com</name>
+					<alias>Pol Llovet</alias>
+					<setting name='buddy_icon' type='string'>4d50c96f565ca9dc360a2060ad044a9692f3c1f9.jpg</setting>
+					<setting name='icon_checksum' type='string'>4d50c96f565ca9dc360a2060ad044a9692f3c1f9</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>toddbyrne@gmail.com</name>
+					<alias>Todd Byrne @ gmail</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>aragil@aim.jabber.meta.net.nz</name>
+					<alias>ZAAAAAANNNNNEESSSS</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>cbodelon@aim.jabber.meta.net.nz</name>
+					<alias> Clara Bodelon Aldworth</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>thughesgfp%mac.com@aim.jabber.meta.net.nz</name>
+					<alias>Thom Hughes @ mac</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>traviswganje@aim.jabber.meta.net.nz</name>
+					<alias>traviswganje</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>cefrench@gmail.com</name>
+					<setting name='buddy_icon' type='string'>b59aac981317a6b1afc2ca3ff9179bcf2897c06f.jpg</setting>
+					<setting name='icon_checksum' type='string'>b59aac981317a6b1afc2ca3ff9179bcf2897c06f</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>jrosen.msu@gmail.com</name>
+					<alias>Jason Rosen</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>libbey.white@gmail.com</name>
+					<alias>Libbey</alias>
+					<setting name='buddy_icon' type='string'>68b1c4e8ca175fb0e5359e30d4296f7e108a7ba3.png</setting>
+					<setting name='icon_checksum' type='string'>68b1c4e8ca175fb0e5359e30d4296f7e108a7ba3</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>marthabsellers@gmail.com</name>
+					<alias>Martha Sellers</alias>
+					<setting name='last_seen' type='int'>1242105577</setting>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Workers'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>vallardt@gmail.com</name>
+					<alias>Vallard, Tyghe</alias>
+					<setting name='buddy_icon' type='string'>b2b812b54c07d426c30e35ef63d42e813acc3feb.jpg</setting>
+					<setting name='icon_checksum' type='string'>b2b812b54c07d426c30e35ef63d42e813acc3feb</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>ivan.judson@services.montana.edu</name>
+					<alias>Ivan @ services</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>lgbill@gmail.com</name>
+					<alias>William Hosbein</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Family'>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>alivingood@gmail.com</name>
+					<alias>April Livingood</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='livingood.pw@gmail.com/Home' proto='prpl-jabber'>
+					<name>agelace@jabber.org</name>
+					<alias>Joseph Agelace</alias>
+				</buddy>
+			</contact>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-jabber' name='livingood.pw@gmail.com/Home' mode='1'/>
+	</privacy>
+</purple>
