@@ -1,9 +1,19 @@
 (add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/elim/elisp")
+(add-to-list 'load-path "~/.emacs.d/bbdb/lisp")
+
 (require 'rcirc)
 (require 'rcirc-extension)
+;; (require 'twit)
+
+(ido-mode t)
 
 (global-set-key (kbd "C-x C-;") 'comment-or-uncomment-region)
 (global-set-key (kbd "C-c b") 'browse-url-at-point)
+(global-set-key (kbd "C-c <left>") 'shrink-window-horizontally)
+(global-set-key (kbd "C-c <right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "C-c <down>") 'shrink-window)
+(global-set-key (kbd "C-c <up>") 'enlarge-window)
 
 (defun-rcirc-command reconnect (arg)
      "Reconnect the server process."
@@ -28,5 +38,69 @@
                       nick
                       channels)))
 
-(ido-mode)
+
 (windmove-default-keybindings)
+
+(menu-bar-mode -1 )
+(tool-bar-mode -1 )
+;;; This was installed by package-install.el.
+;;; This provides support for the package system and
+;;; interfacing with ELPA, the package archive.
+;;; Move this code earlier if you want to reference
+;;; packages in your .emacs.
+(when
+    (load
+     (expand-file-name "~/.emacs.d/elpa/package.el"))
+  (package-initialize))
+
+;; To install, add the following to your .emacs file:
+ (autoload 'kill-ring-search "kill-ring-search"
+;;  "Search the kill ring in the minibuffer."
+  (interactive))
+ (global-set-key "\M-\C-y" 'kill-ring-search)
+;;
+;; Just call kill-ring-search and enter your search.
+;; M-y and C-y work as usual.  You can also use C-r like in a shell.
+;; C-v, M-v, C-n and C-p will scroll the view.
+
+;; emacs-fu
+(blink-cursor-mode nil)             ;; stop cursor from blinking
+(setq search-highlight t            ;; highlight when searching... 
+  query-replace-highlight t)
+
+(setq save-place-file "~/.emacs.d/saveplace") ;; keep my ~/ clean
+(setq-default save-place t)                   ;; activate it for all buffers
+(require 'saveplace)                          ;; get the package
+
+(setq savehist-additional-variables    ;; also save...
+  '(search-ring regexp-search-ring kill-ring)    ;; ... my search entries
+  savehist-file "~/.emacs.d/savehist") ;; keep my home clean
+(savehist-mode t)                      ;; do customization before activate
+
+(push '("." . "~/.emacs.d/savefiles") backup-directory-alist) 
+
+;; mark current line:
+(global-hl-line-mode 1)
+;; color for current line:
+(set-face-background 'hl-line "#e0f8ff")
+
+(setq uniquify-buffer-name-style 'reverse)
+(setq uniquify-separator "|")
+(setq uniquify-after-kill-buffer-p t)
+(setq uniquify-ignore-buffers-re "^\\*")
+
+
+
+(require 'xcite)
+(autoload 'xcite "xcite" "Exciting cite" t)
+(autoload 'xcite-yank-cur-msg "xcite" "Exciting cite" t)
+(autoload 'xcite-indent-citation "xcite")
+;;(setq message-citation-line-function nil message-citation-line-function 'xcite-indent-citation)
+(setq message-citation-line-function nil
+message-indent-citation-function
+'xcite-indent-citation)
+
+(defun default-custom-header ()
+(format "On %s %s%s wrote:\n"
+date (or handle "") (if id (concat " (" id ")" ) "")))
+(setq xcite:insert-header-function 'default-custom-header)
