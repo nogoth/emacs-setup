@@ -1,6 +1,8 @@
 (add-to-list 'load-path "~/.emacs.d/")
 (add-to-list 'load-path "~/.emacs.d/elim/elisp")
 (add-to-list 'load-path "~/.emacs.d/bbdb/lisp")
+(add-to-list 'load-path "~/.emacs.d/egg")
+(load-file "~/.emacs.d/egg/egg.el")
 
 (require 'rcirc)
 (require 'rcirc-extension)
