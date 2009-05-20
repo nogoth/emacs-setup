@@ -6,39 +6,39 @@
 (load-library "nnir")
 
 (setq gnus-select-method '(nnimap "imap.gmail.com"
-           (nnimap-address "imap.gmail.com")
-					            (nnimap-server-port 993)
-											           (nnimap-authinfo-file "~/.authinfo")
-																      (nnir-search-engine imap)
-																			           (nnimap-stream ssl)))
+				  (nnimap-address "imap.gmail.com")
+				  (nnimap-server-port 993)
+				  (nnimap-authinfo-file "~/.authinfo")
+				  (nnir-search-engine imap)
+				  (nnimap-stream ssl)))
 
 
 
 (setq gnus-secondary-select-methods
       '(
-
-      (nnimap "finn.cns.montana.edu"
-	      (nnimap-list-pattern ("~/mail/in-SPAM_BUCKET"))
+	(nnimap "finn.cns.montana.edu"
+		(nnimap-list-pattern ("~/mail/in-SPAM_BUCKET"))
 		(nnimap-address "finn.cns.montana.edu")
 		(nnimap-server-port 993)
 		(nnir-search-engine imap)
 		(nnimap-authinfo-file "~/.authinfo")
 		(nnimap-stream ssl)
 		)
+	)
       )
-)
 
 (setq smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
-smtpmail-smtp-server "smtp.gmail.com"
-smtpmail-default-smtp-server "smtp.gmail.com"
-send-mail-function 'smtpmail-send-it
-message-send-mail-function 'smtpmail-send-it
-smtpmail-smtp-service 587
-;; smtpmail-auth-credentials '(("smtp.gmail.com"
-;; 587
-;; "livingood.pw@gmail.com"
-;; nil))
-)
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      send-mail-function 'smtpmail-send-it
+      message-send-mail-function 'smtpmail-send-it
+      smtpmail-smtp-service 587
+      ;; smtpmail-auth-credentials '(("smtp.gmail.com"
+      ;; 587
+      ;; "livingood.pw@gmail.com"
+      ;; nil))
+      )
+
 (add-hook 'gnus-topic-mode-hook 'gnus-topic-mode)
 
 (setq gnus-invalid-group-regexp "[:`'\"]\\|^$")
