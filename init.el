@@ -1,8 +1,15 @@
 (add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/emacs-w3m")
 (add-to-list 'load-path "~/.emacs.d/elim/elisp")
 (add-to-list 'load-path "~/.emacs.d/bbdb/lisp")
 (add-to-list 'load-path "~/.emacs.d/egg")
 (load-file "~/.emacs.d/egg/egg.el")
+
+;;(require 'w3m)
+
+ (setq browse-url-browser-function 'w3m-browse-url)
+ (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+
 
 (require 'rcirc)
 (require 'rcirc-extension)
