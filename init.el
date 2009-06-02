@@ -9,7 +9,9 @@
 
  (setq browse-url-browser-function 'w3m-browse-url)
  (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
-
+ (setq w3m-use-cookies t)
+ ;; so we can browse w/o it asking to verify it's safe
+ (setq mm-w3m-safe-url-regexp 'nil)
 
 (require 'rcirc)
 (require 'rcirc-extension)
