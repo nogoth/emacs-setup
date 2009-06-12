@@ -13,6 +13,7 @@
  ;; so we can browse w/o it asking to verify it's safe
  (setq mm-w3m-safe-url-regexp 'nil)
 
+(require 'twittering-mode)
  (defvar twittering-username "nogoth")
 
 (require 'rcirc)
