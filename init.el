@@ -117,3 +117,15 @@ message-indent-citation-function
 (format "On %s %s%s wrote:\n"
 date (or handle "") (if id (concat " (" id ")" ) "")))
 (setq xcite:insert-header-function 'default-custom-header)
+
+
+;; ruby items
+(when (require 'ruby-mode nil t)
+  (autoload 'ruby-mode "ruby-mode" "Major mode for editing Ruby code" t)
+  (add-to-list 'auto-mode-alist '("\\.rb\\'" . ruby-mode))
+  (add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode))
+  (add-hook 'ruby-mode-hook (lambda () (local-set-key "\r" 'ruby-reindent-then-newline-and-indent))))
+
+(when (require 'ruby-electric nil t)
+  (require 'ruby-electric)
+  (add-hook 'ruby-mode-hook (lambda () (ruby-electric-mode t))))
