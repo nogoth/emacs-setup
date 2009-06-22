@@ -5,6 +5,9 @@
 (add-to-list 'load-path "~/.emacs.d/egg")
 (load-file "~/.emacs.d/egg/egg.el")
 
+(require 'browse-kill-ring)
+(browse-kill-ring-default-keybindings)
+
 ;;(require 'w3m)
 
  (setq browse-url-browser-function 'w3m-browse-url)
@@ -14,7 +17,7 @@
  (setq mm-w3m-safe-url-regexp 'nil)
 
 (require 'twittering-mode)
- (defvar twittering-username "nogoth")
+ (setq twittering-username "nogoth")
 
 (require 'rcirc)
 (require 'rcirc-extension)
