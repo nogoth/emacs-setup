@@ -1,9 +1,9 @@
 ;;; -*- Emacs-Lisp -*-
-;;;  exciting cite utility
-;;; (c)1996-2005 by HIROSE Yuuji [yuuji@gentei.org]
-;;; $Id: xcite.el,v 1.58 2007/11/18 13:50:59 yuuji Exp $
-;;; Last modified Sun Nov 18 22:44:19 2007 on firestorm
-;;; Update count: 482
+;;; exciting cite utility
+;;; (c)1996-2009 by HIROSE Yuuji [yuuji@gentei.org]
+;;; $Id: xcite.el,v 1.60 2009/10/15 15:46:55 yuuji Exp $
+;;; Last modified Fri Oct 16 00:46:12 2009 on firestorm
+;;; Update count: 487
 
 ;;[Commentary]
 ;;
@@ -351,10 +351,12 @@
 ;;
 ;;[Disclaimer]
 ;;
-;;	This  software  is distributed as  a free  software  without any
-;;	warranty to anything  as a result  of using this.  Especially, I
-;;	am not responsible for the case when you cite your friend's mail
-;;	with a silly citation prefix in a serious situation :)
+;;	  This  program is  distributed  as a  free  software.  You  can
+;;	use/copy/modify/redistribute  this software  freely but  with NO
+;;	warranty  to  anything  as  a  result of  using  this  software.
+;;	Especially, I am not responsible for the case when you cite your
+;;	friend's  mail  with  a  silly  citation  prefix  in  a  serious
+;;	situation :)
 ;;
 ;;	The pronunciation of xcite is the same as excite.
 ;;
@@ -369,7 +371,7 @@
 ;;
 ;;	xciteはexciteと同じ発音で読んでください。
 ;;
-;;				Jul. 2001 広瀬雄二 [yuuji@gentei.org]
+;;				Oct. 2009 広瀬雄二 [yuuji@gentei.org]
 ;;
 
 ;;;
@@ -825,8 +827,7 @@ should go."
 	      (setq ng (xcite-match-string 1)))
 	  (goto-char peoh)
 	  (if (re-search-backward xcite:inet-subject nil t)
-	      (setq subject (xcite-match-string 1))))
-	)
+	      (setq subject (xcite-match-string 1)))))
        ((looking-at xcite:author-mail)
 	(setq id	(xcite-match-string 1)
 	      handle	(xcite-match-string 2))
@@ -835,9 +836,7 @@ should go."
 	      day	(xcite-match-string 4)
 	      hour	(xcite-match-string 5)
 	      minute	(xcite-match-string 6)
-	      year	(xcite-match-string 8)))
-       );cond
-      );;return from excursion
+	      year	(xcite-match-string 8)))))
     (select-or-switch-to-buffer cb)	;return to current buffer
     (make-local-variable 'xcite:current-citation-prefix)
     (or (null xcite:citation-leader)
@@ -1023,8 +1022,7 @@ Non-nil for optional argument ARG selects citation prefix randomly."
 		     (goto-char (point-min))
 		     (re-search-forward xcite:mail-buffer-identifier nil t))
 		   (throw 'found (current-buffer))))
-	   (setq list (cdr list)))))
-     )))
+	   (setq list (cdr list))))))))
 
 (defun xcite-fill-base (arg)
   (if xcite:strict-citation-check
@@ -1131,7 +1129,7 @@ Non-nil for optional 3rd argument ALL removes all occurences of ELT."
     nil)))
 
 (provide 'xcite)
-(defconst xcite:revision "$Revision: 1.58 $"
+(defconst xcite:revision "$Revision: 1.60 $"
   "Revision number of xcite.el")
 (defconst xcite:version
   (progn (string-match "\\([0-9.]+\\)" xcite:revision)
