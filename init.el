@@ -5,6 +5,12 @@
 (add-to-list 'load-path "~/.emacs.d/egg")
 (load-file "~/.emacs.d/egg/egg.el")
 
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  )
+
 (require 'browse-kill-ring)
 (browse-kill-ring-default-keybindings)
 
